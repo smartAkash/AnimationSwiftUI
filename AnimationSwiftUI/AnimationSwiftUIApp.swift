@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimationSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProgressIndicator1(degrees: Binding.constant(0.0), animate: Binding.constant(false))
         }
     }
 }
